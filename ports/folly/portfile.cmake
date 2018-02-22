@@ -20,10 +20,6 @@ vcpkg_from_github(
     REF v2018.04.09.00
     SHA512 625034437ee6c261949652dbd6cafb50b0954b691750e4591cd0eb03cf369348cfae3b4b98c012bd906a157b7642ebcb1d8843311c74416ed51bffc5b1da3018
     HEAD_REF master
-)
-
-vcpkg_apply_patches(
-    SOURCE_PATH ${SOURCE_PATH}
     PATCHES
         ${CMAKE_CURRENT_LIST_DIR}/msvc-15.6-workaround.patch
 )
