@@ -5,8 +5,8 @@ include(vcpkg_common_functions)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO boostorg/iostreams
-    REF boost-1.66.0
-    SHA512 d2d603013dd952a550850c986fc18ded90a483d9eccd80aec4bb421187f6d8ba8fc2c82926f60d4e4f777c67eab1b8dc3708058147dcdd1ab259aa13cee26fd9
+    REF boost-1.67.0
+    SHA512 73fada0b6e236e0b86f28d8cf75e71dfb6b6a84622986cd72f39de3a310442e6122c91d22ba95bd29381dd559f5cac52a1e28cf97e7e8a6f0c70ccc4f38ceeba
     HEAD_REF master
 )
 
